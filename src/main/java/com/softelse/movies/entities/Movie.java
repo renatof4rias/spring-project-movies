@@ -11,7 +11,7 @@ import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "tb_movie")
-public class Movie implements Serializable{
+public class Movie implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	@Id
@@ -21,9 +21,9 @@ public class Movie implements Serializable{
 	private Double score;
 	private Integer count;
 	private String image;
-	
+
 	public Movie() {
-		
+
 	}
 
 	public Movie(Long id, String title, Double score, Integer count, String image) {
@@ -90,5 +90,5 @@ public class Movie implements Serializable{
 		Movie other = (Movie) obj;
 		return Objects.equals(id, other.id);
 	}
-	
+
 }
