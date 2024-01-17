@@ -20,8 +20,8 @@ public class MovieResource {
 	private MovieService movieService;
 	
 	@GetMapping
-	public Page<MovieDTO> findAll(Pageable pageable){
-		Page<MovieDTO> result = movieService.findAll(pageable);
+	public Page<MovieDTO> findList(Pageable pageable){
+		Page<MovieDTO> result = movieService.findList(pageable);
 		return result;
 	}
 }
