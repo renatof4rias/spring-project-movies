@@ -33,5 +33,4 @@ public class MovieResource {
 		return ResponseEntity.ok().body(dto);
 	}
 	
-	
 }
