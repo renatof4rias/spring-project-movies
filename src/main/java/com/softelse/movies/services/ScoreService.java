@@ -48,7 +48,6 @@ public class ScoreService {
 		double sum = 0.0;
 		for (Score s : movie.getScores()) {
 			sum += s.getValue();
-
 		}
 
 		double media = sum / movie.getScores().size();
@@ -59,5 +58,4 @@ public class ScoreService {
 		movie = movieRepository.saveAndFlush(movie);
 		return new MovieDTO(movie);
 	}
-
 }

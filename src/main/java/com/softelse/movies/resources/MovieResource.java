@@ -12,8 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.softelse.movies.dto.MovieDTO;
 import com.softelse.movies.services.MovieService;
 
-
-
 @RestController
 @RequestMapping(value = "/movies")
 public class MovieResource {
@@ -32,5 +30,4 @@ public class MovieResource {
 		MovieDTO dto = movieService.findById(id);
 		return ResponseEntity.ok().body(dto);
 	}
-	
 }

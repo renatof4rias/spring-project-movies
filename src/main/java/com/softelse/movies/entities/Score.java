@@ -42,5 +42,4 @@ public class Score {
 	public void setValue(Double value) {
 		this.value = value;
 	}
-
 }

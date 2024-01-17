@@ -22,7 +22,4 @@ public class ScoreResource {
 		MovieDTO movieDTO = scoreService.saveScore(dto);
 		return movieDTO;
 	}
-
-	
-	
 }
