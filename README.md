@@ -10,7 +10,7 @@
 <p align="justify">
 Movie é uma aplicação backend de uma API REST.
 
-A aplicação consiste em uma pesquisa de satisfação de um determinado filme, contendo gerenciamente de score (1 a 5), média, contagem de avaliações e cadastro de novos usuários .  
+A aplicação consiste em uma pesquisa de satisfação de um determinado filme, contendo gerenciamento de score (1 a 5), média, contagem de avaliações e cadastro de novos usuários .  
 </p>
 
 ## Modelo Conceitual
